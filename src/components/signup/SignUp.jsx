@@ -10,7 +10,7 @@ const SignUp = () => {
           Get started
         </button>
       </div>
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 mb-10 md:mb-0">
         <img src="https://img.freepik.com/free-photo/hand-scanning-qr-code-restaurant_23-2149357882.jpg?size=626&ext=jpg&ga=GA1.1.895871021.1671308210&semt=robertav1_2_sidr" className="w-full" alt="" />
       </div>
     </div>
