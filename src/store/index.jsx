@@ -68,12 +68,12 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState(
         {
             id: 2,
             img:step2,
-            text: "Present your purSe QR code to customers on counter.",
+            text: "Present your PayCode QR code to customers on counter.",
         },
         {
             id: 3,
             img:step3,
-            text: "Customer scans the QR code with purSe app.",
+            text: "Customer scans the QR code with PayCode app.",
         },
         {
             id: 4,

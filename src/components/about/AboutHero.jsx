@@ -10,9 +10,9 @@ const AboutHero = () => {
         <img src={hero}  className="w-full" alt="" />
       </div>
       <div  className="w-full md:w-1/2 py-10 px-5 md:pl-10 md:py-10 md:pr-20 space-y-3">
-        <h1 className="text-[#111827] text-3xl font-bold md:text-4xl mb-4">Features of purSe</h1>
+        <h1 className="text-[#111827] text-3xl font-bold md:text-4xl mb-4">Features of PayCode</h1>
         {about.map((about, i) => (
-        <div key={i} className="flex items-center space-x-3 bg-[#FEF7C3] p-5 rounded-lg">
+        <div key={i} className="flex items-center space-x-3 bg-[#FEFBE8] p-5 rounded-lg hover:scale-105">
           <img src={icon} className="w-8" alt="" />
           <p className="text-xl md:text-2xl">{about.text}</p>
         </div>

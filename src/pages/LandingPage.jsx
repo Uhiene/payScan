@@ -6,7 +6,7 @@ import Benefits from "../components/benefits/Benefits";
 import Steps from "../components/steps/Steps";
 import Solutions from "../components/solutions/Solutions";
 import Footer from "../components/Footer";
-import Questions from "../components/Questions";
+import Questions from "../components/faqs/Questions";
 
 const LandingPage = () => {
   return (
