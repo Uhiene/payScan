@@ -1,9 +1,9 @@
-## PayCode
+## PayScan
 
 Demo
-![demo video](./screenshots/paycode.gif)
+![demo video](./screenshots/PayScan.gif)
 
-## PayCode - Barcode Scanning Payment System
+## PayScan - Barcode Scanning Payment System
 
 Payleaf is a modern payment system that allows users to pay for goods and services using their smartphone cameras to scan barcodes. With Payleaf, users can make payments quickly and easily, without the need for cash or physical cards.
 

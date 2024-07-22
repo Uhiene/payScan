@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../components/hero/Hero";
-import About from "../components/about/About";
-import SignUp from "../components/signup/SignUp";
-import Benefits from "../components/benefits/Benefits";
-import Steps from "../components/steps/Steps";
-import Solutions from "../components/solutions/Solutions";
-import Footer from "../components/Footer";
-import Questions from "../components/faqs/Questions";
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import SignUp from "../sections/SignUp";
+import Benefits from "../sections/Benefits";
+import Steps from "../sections/Steps";
+import Solutions from "../sections/Solutions";
+import Footer from "../components/layout/Footer";
+import FAQ from "../sections/FAQ";
 
 const LandingPage = () => {
   return (
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <Benefits />
       <Steps />
       <Solutions/>
-      <Questions/>
+      <FAQ/>
       <Footer/>
     </div>
   );

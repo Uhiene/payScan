@@ -1,21 +1,21 @@
 import React from "react";
-import Accordion from "./Accordion";
+import Accordion from "../components/faqs/Accordion";
 
-const Questions = () => {
+const FAQ = () => {
   return (
     <div
-      className="bg-[#FAFAFA] py-12 px-5 md:p-24 flex flex-col items-center"
+      className="bg-[#FAFAFA] py-12 px-5 lg:p-24 flex flex-col items-center"
       id="faqs"
     >
       <div className="text-center space-y-5">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl lg:text-5xl font-bold">
           Frequently asked questions
         </h1>
-        <p className="text-lg md:2xl">
+        <p className="text-lg lg:2xl">
           Everything you need to know about the product and billing.
         </p>
       </div>
-      <div className="mt-14 w-full md:w-1/2">
+      <div className="mt-14 w-full lg:w-1/2">
         <Accordion title="Is there a free trial available?">
           <p>
             Yes, you can try us for free for 30 days. If you want, we’ll provide
@@ -57,4 +57,4 @@ const Questions = () => {
   );
 };
 
-export default Questions;
+export default FAQ;

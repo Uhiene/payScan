@@ -1,13 +1,13 @@
 import { createGlobalState } from "react-hooks-global-state";
-import step1 from "../assets/steps2.svg"
-import step2 from "../assets/steps1.svg"
-import step3 from "../assets/steps4.svg"
-import step4 from "../assets/steps3.svg"
-import solution1 from "../assets/Vector (1).svg"
-import solution2 from "../assets/Vector (2).svg"
-import solution3 from "../assets/Vector (3).svg"
-import solution4 from "../assets/Vector (4).svg"
-import solution5 from "../assets/Vector (5).svg"
+import step1 from "../assets/steps/steps2.svg"
+import step2 from "../assets/steps/steps1.svg"
+import step3 from "../assets/steps/steps4.svg"
+import step4 from "../assets/steps/steps3.svg"
+import solution1 from "../assets/solution/icon1.svg"
+import solution2 from "../assets/solution/icon2.svg"
+import solution3 from "../assets/solution/icon3.svg"
+import solution4 from "../assets/solution/icon4.svg"
+import solution5 from "../assets/solution/icon5.svg"
 
 const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState(
   {
@@ -68,12 +68,12 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState(
         {
             id: 2,
             img:step2,
-            text: "Present your PayCode QR code to customers on counter.",
+            text: "Present your PayScan QR code to customers on counter.",
         },
         {
             id: 3,
             img:step3,
-            text: "Customer scans the QR code with PayCode app.",
+            text: "Customer scans the QR code with PayScan app.",
         },
         {
             id: 4,
